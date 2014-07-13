@@ -22,6 +22,7 @@
 		508FFDB21971873D0043772B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508FFD911971873D0043772B /* UIKit.framework */; };
 		508FFDBA1971873D0043772B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 508FFDB81971873D0043772B /* InfoPlist.strings */; };
 		508FFDBC1971873D0043772B /* WhereIsGazaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 508FFDBB1971873D0043772B /* WhereIsGazaTests.m */; };
+		508FFDC6197187D70043772B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508FFDC5197187D70043772B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		508FFDB71971873D0043772B /* WhereIsGazaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhereIsGazaTests-Info.plist"; sourceTree = "<group>"; };
 		508FFDB91971873D0043772B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		508FFDBB1971873D0043772B /* WhereIsGazaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereIsGazaTests.m; sourceTree = "<group>"; };
+		508FFDC5197187D70043772B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508FFDC6197187D70043772B /* MapKit.framework in Frameworks */,
 				508FFD901971873D0043772B /* CoreGraphics.framework in Frameworks */,
 				508FFD921971873D0043772B /* UIKit.framework in Frameworks */,
 				508FFD8E1971873D0043772B /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		508FFD8C1971873D0043772B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				508FFDC5197187D70043772B /* MapKit.framework */,
 				508FFD8D1971873D0043772B /* Foundation.framework */,
 				508FFD8F1971873D0043772B /* CoreGraphics.framework */,
 				508FFD911971873D0043772B /* UIKit.framework */,
